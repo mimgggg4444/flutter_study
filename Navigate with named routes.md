@@ -1,5 +1,8 @@
-화면 2개 만들기
+```
 
+```
+
+### 화면 2개 만들기
 
 ```
 import 'package:flutter/material.dart';
@@ -32,3 +35,18 @@ const SecondScreen super.key
 ```
   
         
+### 경로설정
+
+
+```
+MaterialApp
+title Named Routes Demo
+initialRoute '/'
+routes
+
+'/': (context) => const FirstScreen()
+'/second': (context) => const SecondScreen(),
+```
+
+### 두 번째 화면으로 이동
+
